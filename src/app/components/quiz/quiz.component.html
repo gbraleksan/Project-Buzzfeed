@@ -27,9 +27,6 @@
 
   <div *ngIf="finished" class="quiz__result">
     <h1>O seu resultado é:</h1>
-    <div class="img_container">
-      <img src="{{ resultadoImagem }}" alt="" width="600px">
-    </div>
     <p>{{ answerSelected }}</p>
     <div onClick="window.location.reload()" class="restart_quiz">
       <span>Refazer Quiz</span>

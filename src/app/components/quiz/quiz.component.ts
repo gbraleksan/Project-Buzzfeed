@@ -29,8 +29,7 @@ export class QuizComponent implements OnInit {
     if(quiz_questions){
       this.finished = false;
       this.title = quiz_questions.title;
-      this.subtitle = quiz_questions.title; //ALTERAR ISSO AQUI PRA SUBTITLE
-      this.resultadoImagem = ""//quiz_questions.img;
+      this.subtitle = quiz_questions.subtitle;
 
       this.questions = quiz_questions.questions;
       this.questionSelected = this.questions[this.questionIndex];

@@ -1,55 +1,90 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você sobreviveria a um apocalipse zumbi?",
+  "subtitle": "",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Em um apocalipse zumbi, qual habilidade seria mais crucial para sua sobrevivência?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Habilidade de combate corpo a corpo", "alias":"A"},
+        {"id": 2, "name":"Habilidade de tiro e manuseio de armas de fogo", "alias":"A"},
+        {"id": 3, "name":"Habilidade de gritar bem alto", "alias":"B"},
+        {"id": 4, "name":"Correr desesperado pelas ruas", "alias":"B"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual seria sua estratégia principal para encontrar alimentos durante um apocalipse zumbi?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Saquear supermercados e lojas", "alias":"B"},
+        {"id": 2, "name":"Caçar animais selvagens", "alias":"A"},
+        {"id": 3, "name":"Cultivar um jardim ou horta", "alias":"A"},
+        {"id": 4, "name":"Enfrentar grupos pequenos de nômades", "alias": "B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual seria sua prioridade ao escolher um abrigo seguro durante um apocalipse zumbi?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Localização remota e isolada", "alias":"A"},
+        {"id": 2, "name":"Fortaleza com defesas sólidas", "alias":"B"},
+        {"id": 3, "name":"Acesso fácil a recursos como água potável", "alias":"A"},
+        {"id": 4, "name":"Qualquer lugar que caiba um colchão", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "O que deve ser priorizado ao formar um grupo de sobreviventes?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Diversidade de habilidades para enfrentar diferentes desafios", "alias":"A"},
+        {"id": 2, "name":"Aceitar qualquer pessoa, independentemente de suas habilidades ou confiabilidade", "alias":"B"},
+        {"id": 3, "name":"Evitar a formação de grupos, optando pela solidão", "alias":"B"},
+        {"id": 4, "name":"Incluir apenas amigos e familiares para garantir confiança", "alias":"A"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Como lidar com encontros hostis com outros grupos de sobreviventes?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Ignorar outros grupos, mantendo-se isolado", "alias":"B"},
+        {"id": 2, "name":"Priorizar a diplomacia e colaboração para evitar conflitos", "alias":"A"},
+        {"id": 3, "name":"Atacar preventivamente para eliminar possíveis ameaças", "alias":"B"},
+        {"id": 4, "name":"Aceitar a submissão imediata a qualquer grupo encontrado", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual é a melhor estratégia para lidar com um ferimento durante um apocalipse zumbi?",
+      "options":[
+        {"id": 1, "name":"Ignorar ferimentos menores e esperar a cura natural", "alias":"B"},
+        {"id": 2, "name":"Ter conhecimento básico de primeiros socorros e medicina", "alias":"A"},
+        {"id": 3, "name":"Aceitar fatalisticamente que ferimentos são fatais", "alias":"B"},
+        {"id": 4, "name":"Confiar exclusivamente em outros para tratar ferimentos", "alias":"B"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Como manter a sanidade mental em um mundo pós-apocalíptico?",
+      "options":[
+        {"id": 1, "name":"Ignorar o impacto psicológico, focando apenas na sobrevivência física", "alias":"B"},
+        {"id": 2, "name":"Depender de substâncias psicoativas para escapar da realidade", "alias":"B"},
+        {"id": 3, "name":"Isolar-se completamente para evitar emoções negativas", "alias":"B"},
+        {"id": 4, "name":"Buscar apoio emocional entre membros do grupo", "alias":"A"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Qual a importância de aprender habilidades de sobrevivência na natureza durante um apocalipse zumbi?",
+      "options":[
+        {"id": 1, "name":"Focar apenas em habilidades tecnológicas para sobreviver", "alias":"B"},
+        {"id": 2, "name":"Adquirir conhecimentos sobre plantas comestíveis, construção de abrigos e técnicas de orientação", "alias":"A"},
+        {"id": 3, "name":"Desprezar essas habilidades, confiando em abrigos urbanos", "alias":"B"},
+        {"id": 4, "name":"Racionalizar que a sobrevivência na natureza é desnecessária diante de outras ameaças.", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "PARABÉNS! Suas escolhas estratégicas, habilidades de sobrevivência e disposição para aprender e se adaptar seriam essenciais em um cenário de apocalipse zumbi. Sua capacidade de formar alianças, priorizar a segurança, e manter a calma diante do caos aumenta significativamente suas chances de sobrevivência. Continue cultivando suas habilidades e se preparando, e você estará pronto para enfrentar qualquer desafio que o mundo pós-apocalíptico possa oferecer.",
+    "B": "INFELIZMENTE, suas escolhas e abordagens estratégicas sugerem que enfrentaria dificuldades significativas em um apocalipse zumbi. A falta de preparação, a dependência excessiva de métodos arriscados e a negligência de habilidades essenciais podem comprometer sua capacidade de sobrevivência. Considere reavaliar suas estratégias, adquirir novas habilidades e formar alianças sólidas para aumentar suas chances de enfrentar os desafios que surgiriam em um mundo pós-apocalíptico."
   }
 }

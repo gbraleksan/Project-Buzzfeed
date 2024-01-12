@@ -58,7 +58,7 @@
   align-items: center;
   width: 100%;
   height: 50px;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 20px;
 
 }
@@ -77,10 +77,10 @@
 
 .answer{
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   width: 400px;
   height: 150px;
-  font-size: 26px;
+  font-size: 18px;
   background-color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 5px;
@@ -88,7 +88,7 @@
 
 
 .answer:hover{
-  font-size: 27px;
+  background-color: #ececec;
   cursor: pointer;
 }
 
@@ -105,19 +105,15 @@
   justify-content: center;
   align-items: center;
 }
-
-.img_container{
-  margin: 50px;
-}
-
 .quiz__result > p{
-  font-size: 26px;
+  margin: 60px;
+  font-size: 18px;
 }
 
 .restart_quiz{
   font-weight: 600;
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   width: 500px;
@@ -127,6 +123,7 @@
 }
 
 .restart_quiz:hover{
+  background-color: #ececec;
   cursor: pointer;
 
 }
